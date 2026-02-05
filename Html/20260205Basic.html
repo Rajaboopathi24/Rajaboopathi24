@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+
+function initiated() {
+  document.getElementById("demo").innerHTML = "Initiated.";
+}
+
+function running() {
+  document.getElementById("demo").innerHTML = "Running.";
+}
+
+function executed() {
+  document.getElementById("demo").innerHTML = "Executed.";
+   window.alert("Hi Hellow How are you?");
+}
+
+</script>
+
+<!-- comment -->
+
+ <!--script>
+    window.alert("Hi Hellow How are you?");
+  </script-->
+  
+</head>
+<body>
+
+<h2>Demo JavaScript</h2>
+
+<p id="demo">A Paragraph.</p>
+
+<button type="button" onclick="initiated()">Try it</button>
+<button type="button" onclick="running()">Try it</button>
+<button type="button" onclick="executed()">Try it</button>
+
+
+</body>
+</html>
