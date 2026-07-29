@@ -4,6 +4,7 @@ AS
 BEGIN
     SET NOCOUNT ON;
 
+
     CREATE TABLE #Temp_Loans (
         loan_id INT,
         customer_id INT,
